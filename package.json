@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.17.1",
+    "axios": "^0.21.3",
+    "faunadb": "^4.4.1",
     "hoist-non-react-statics": "^3.3.2",
     "next": "11.1.2",
     "next-auth": "^3.29.0",
@@ -19,7 +22,6 @@
     "stripe": "^8.174.0"
   },
   "devDependencies": {
-    
     "@types/node": "^16.7.10",
     "@types/react": "^17.0.19",
     "eslint": "7.32.0",
